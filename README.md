@@ -76,7 +76,7 @@ Termux, Github, Ubuntu
 
 - Let's explore the possibilities of Linux distribution within Termux proot
 
-## For Graogical User Interface/Desktop Environment Setup
+## For Graphical User Interface/Desktop Environment Setup
 
 - Watch My Videos In YouTube
 - YouTube Channel: Nick Codings
