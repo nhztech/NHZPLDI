@@ -29,35 +29,35 @@ Generates easy-to-use scripts for launching installed distros.
      
    - Grant Termux storage permissions if prompted.
 
-# 2. Install requirements 
+ 2. Install requirements 
 ```bash
-apt update
-apt upgrade
-apt update
-apt install git
+- apt update
+- apt upgrade
+- apt update
+- apt install git
 ```
 
-# 3. Clone the Repository:
+3. Clone the Repository:
    ```bash
-   git clone https://github.com/nick-hackz/NHZ-PROOT-LINUX-DISTRO-INSTALLER
+git clone https://github.com/nick-hackz/NHZ-PROOT-LINUX-DISTRO-INSTALLER
    ```
 
 3. Run the Script:
    ```bash
-   cd NHZ-PROOT-LINUX-DISTRO-INSTALLER
+cd NHZ-PROOT-LINUX-DISTRO-INSTALLER
 
-   bash nhz-proot-linux-distro-installer.sh
+bash nhz-proot-linux-distro-installer.sh
    ```
 
 ## Usage
 
-# 1. Provide Rootfs Link: 
+ 1. Provide Rootfs Link: 
 When prompted, enter the rootfs link for the distro you wish to install.
 
-# 2. Specify Distro Name:
+ 2. Specify Distro Name:
 Choose a name for your distro (used for the login script).
 
-# 3. Follow Prompts:
+ 3. Follow Prompts:
 The script will handle the rest, providing feedback along the way.
 
 ## Launching the Distro
@@ -66,16 +66,10 @@ The script will handle the rest, providing feedback along the way.
 bash #distro name
 ```
 
-## Additional Information
-
-- **Copyright and Licensing: [State copyright information and license terms here.]
-- **Contributions:** [Outline guidelines for contributions and collaboration.]
-- **Known Issues and Limitations:** [List any known issues or limitations.]
-
 - # Acknowledgments: 
 Termux, Github, Ubuntu
 
 ## Enjoy Linux on the Go!
 
-Let's explore the possibilities of Linux distribution within Termux together!
+- Let's explore the possibilities of Linux distribution within Termux together!
 
