@@ -38,10 +38,13 @@ Generates easy-to-use scripts for launching installed distros.
 ```
 
 3. Clone the Repository:
-   ```bash
-git clone https://github.com/nick-hackz/NHZ-PROOT-LINUX-DISTRO-INSTALLER```
+```bash
 
-3. Run the Script:
+git clone https://github.com/nick-hackz/NHZ-PROOT-LINUX-DISTRO-INSTALLER
+
+ ```
+
+4. Run the Script:
 ```bash
 
 cd NHZ-PROOT-LINUX-DISTRO-INSTALLER
@@ -66,10 +69,16 @@ The script will handle the rest, providing feedback along the way.
 bash #distro name
 ```
 
-- # Acknowledgments: 
+- ## Acknowledgments: 
 Termux, Github, Ubuntu
 
-## Enjoy Linux on the Go!
+## Enjoy Your Linux Distro On Your Termux!
 
-- Let's explore the possibilities of Linux distribution within Termux together!
+- Let's explore the possibilities of Linux distribution within Termux proot
+
+## For Graogical User Interface Setup
+
+- Watch My Videos In YouTube
+- YouTube Channel: Nick Codings
+- YouTube Handle: @nick-codings
 
