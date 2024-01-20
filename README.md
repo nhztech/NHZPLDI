@@ -31,23 +31,23 @@ Generates easy-to-use scripts for launching installed distros.
 
  2. Install requirements 
 ```bash
-- apt update
-- apt upgrade
-- apt update
-- apt install git
+ apt update
+ apt upgrade
+ apt update
+ apt install git
 ```
 
 3. Clone the Repository:
    ```bash
-git clone https://github.com/nick-hackz/NHZ-PROOT-LINUX-DISTRO-INSTALLER
-   ```
+git clone https://github.com/nick-hackz/NHZ-PROOT-LINUX-DISTRO-INSTALLER```
 
 3. Run the Script:
-   ```bash
+```bash
+
 cd NHZ-PROOT-LINUX-DISTRO-INSTALLER
 
 bash nhz-proot-linux-distro-installer.sh
-   ```
+```
 
 ## Usage
 
