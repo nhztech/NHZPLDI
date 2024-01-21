@@ -265,7 +265,7 @@ sleep 0.5
 echo ${Cyan}"Runner Command : ${Yellow}bash $dm.sh "
 echo ""
 echo ${Cyan}"Copyright © 2024 NHZ/Nick Codings All rights reserved"
-echo ${Red}" View rights.md for more details
+echo ${Red}" View rights.md for more details"
 sleep 1
 echo ${Green} "Running $dm....."
 echo
