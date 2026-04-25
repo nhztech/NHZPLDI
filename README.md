@@ -81,14 +81,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **USE AT YOUR OWN RISK** - Test thoroughly before production use
 - **NO LIABILITY** - The author is not responsible for any damages, data loss, or issues
 - **TERMUX DEPENDENT** - Requires Termux and Android environment to function
-- **EXPERIMENTAL** - Linux installation on Android is not officially supported
-
-### 🛡️ Safety Notes:
-- Always backup your data before running installations
-- Test on non-critical systems first
-- Keep your system updated
-- Report security issues responsibly
-
+  
 ---
 
-**Made with ❤️ by Nick Codings / nhztech**
+**Made by Nick Codings / nhztech**
