@@ -56,4 +56,39 @@ Follow the on-screen prompts to choose between Method 1 (Rootfs link) or Method 
 
 ---
 
-**Made by Nick Codings / nhztech**
+## 📜 License & Terms of Use
+
+### License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for full details.
+
+**Copyright © 2026 NHZTech (Nick Codings). All rights reserved.**
+
+### ✅ What You CAN Do:
+- ✔️ Use this project for personal or educational purposes
+- ✔️ Modify and customize the code for your needs
+- ✔️ Redistribute or fork the project
+- ✔️ Use commercially in your own products
+- ✔️ Include in your own projects (with proper credit)
+
+### ❌ What You CAN'T Do:
+- ✘ Remove or alter copyright and license notices
+- ✘ Claim ownership or authorship of the original work
+- ✘ Hold the author liable for any issues, damages, or losses
+- ✘ Use for illegal or harmful purposes
+
+### ⚠️ Important Disclaimers:
+- **NO WARRANTY** - This software is provided "AS-IS" without any warranty or guarantee
+- **USE AT YOUR OWN RISK** - Test thoroughly before production use
+- **NO LIABILITY** - The author is not responsible for any damages, data loss, or issues
+- **TERMUX DEPENDENT** - Requires Termux and Android environment to function
+- **EXPERIMENTAL** - Linux installation on Android is not officially supported
+
+### 🛡️ Safety Notes:
+- Always backup your data before running installations
+- Test on non-critical systems first
+- Keep your system updated
+- Report security issues responsibly
+
+---
+
+**Made with ❤️ by Nick Codings / nhztech**
