@@ -1,4 +1,4 @@
-source "$HOME/PROGRAMS/NHZPLDI/etc/lib/lib_manager.sh"
+source "$HOME/NHZPLDI/etc/lib/lib_manager.sh"
 
 load Typewriter as tw
 
