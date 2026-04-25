@@ -1,13 +1,15 @@
 # 🐧 NHZPLDI - NHZ PROOT LINUX DISTRO INSTALLER
 
-A powerful and easy-to-use Linux distribution installer using PROOT technology.
+A lightweight, efficient, and easy-to-use Linux distribution installer for Android via Termux using PRoot technology.
 
 ## 📋 Features
 
-- **PROOT-based installation** - Install Linux distributions without root privileges
-- **Lightweight** - Minimal resource requirements
-- **User-friendly** - Simple one-command installation
-- **Portable** - Works across multiple systems
+- **Minimalist UI** - Clean, straightforward, and distraction-free terminal interface.
+- **User Friendly** - Simple execution and easy-to-follow prompts designed for everyone.
+- **Automated Setup** - Organizes required configuration files and libraries automatically.
+- **Two Method Installation** - Flexible deployment options tailored to your preference:
+  - *Method 1:* Install a Linux distro manually using rootfs links online.
+  - *Method 2:* Install a Linux distro using PROOT-DISTRO, which is much faster and easier.
 
 ## 🚀 Quick Start
 
@@ -15,6 +17,7 @@ A powerful and easy-to-use Linux distribution installer using PROOT technology.
 - `apt` package manager access
 - `git` installed on your system
 - Internet connection
+  
 
 ### Installation Steps
 
@@ -40,25 +43,17 @@ bash NHZPLDI.sh
 Once installed, you can manage your PROOT Linux environment using:
 
 ```bash
-bash NHZPLDI.sh [options]
+bash NHZPLDI.sh
 ```
 
-For more information, run `bash NHZPLDI.sh --help`
+Follow the on-screen prompts to choose between Method 1 (Rootfs link) or Method 2 (PROOT-DISTRO) for a seamless setup experience.
 
-## 🤝 Support
+## 🤝🏻 Support & Community
 
-- 📺 **Watch & Subscribe** to my YouTube Channel for free lessons and tutorials
-- 💬 **Issues** - Report bugs or request features via GitHub Issues
-- 🔗 **Discussions** - Join the community discussions
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🙏 Contributing
-
-Contributions are welcome! Feel free to fork, modify, and submit pull requests.
+- 📺 **Watch & Subscribe** to [Nick Codings](https://youtube.com/@nick-codings?si=hFF41ojn5ieYq3mx) on YouTube for free lessons, troubleshootings, installation guides and other tech tutorials.
+- 💬 **Issues** - Report bugs or request features via [GitHub Issues](https://github.com/nhztech/NHZPLDI/issues).
+- 🔗 **Discussions** - Join the community discussions.
 
 ---
 
-**Made with ❤️ by nhztech**
+**Made by Nick Codings / nhztech**
