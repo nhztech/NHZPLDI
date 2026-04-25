@@ -13,9 +13,9 @@ Reset="$(printf '\033[0m')"
 Bold="$(printf '\033[1m')"
 
 # Sources
-source "$HOME/PROGRAMS/NHZPLDI/etc/lib/Typewriter.sh"
-source "$HOME/PROGRAMS/NHZPLDI/etc/lib/align_text.sh"
-source "$HOME/PROGRAMS/NHZPLDI/etc/config.txt"
+source "$HOME/NHZPLDI/etc/lib/Typewriter.sh"
+source "$HOME/NHZPLDI/etc/lib/align_text.sh"
+source "$HOME/NHZPLDI/etc/config.txt"
 
 ARCHITECTURE=$(dpkg --print-architecture)
 
@@ -58,8 +58,8 @@ custom_rootfs_link() {
     NHZPLDI_Banner_Static
 
     if [[ "$Requirements_PROOT_Installed" == "False" ]]; then
-        bash $HOME/PROGRAMS/NHZPLDI/etc/scripts/requirements_proot.sh
-        sed -i 's/^Requirements_PROOT_Installed=.*/Requirements_PROOT_Installed=True/' "$HOME/PROGRAMS/NHZPLDI/etc/config.txt"
+        bash $HOME/NHZPLDI/etc/scripts/requirements_proot.sh
+        sed -i 's/^Requirements_PROOT_Installed=.*/Requirements_PROOT_Installed=True/' "$HOME/NHZPLDI/etc/config.txt"
     elif [[ "$Requirements_PROOT_Installed" == "True" ]]; then
         Typewriter -cy "Upgrading Packages!"
         sleep 0.5
@@ -280,8 +280,8 @@ proot_distro() {
     NHZPLDI_Banner_Static
 
     if [[ "$Requirements_PD_Installed" == "False" ]]; then
-        bash $HOME/PROGRAMS/NHZPLDI/etc/scripts/requirements_pd.sh
-        sed -i 's/^Requirements_PD_Installed=.*/Requirements_PD_Installed=True/' "$HOME/PROGRAMS/NHZPLDI/etc/config.txt"
+        bash $HOME/NHZPLDI/etc/scripts/requirements_pd.sh
+        sed -i 's/^Requirements_PD_Installed=.*/Requirements_PD_Installed=True/' "$HOME/NHZPLDI/etc/config.txt"
     elif [[ "$Requirements_PD_Installed" == "True" ]]; then
         Typewriter -cy "Upgrading Pacakges!"
         sleep 0.5
