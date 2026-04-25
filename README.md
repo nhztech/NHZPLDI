@@ -1,12 +1,12 @@
-# NHZPLDI (NHZ PROOT LINUX DISTRO INSTALLER)
+# Update and upgrade system packages
+apt update && apt upgrade -y
 
-## INSTALLATION STEPS
+# Install git dependency
+apt install git -y
 
-apt update
-apt install github
+# Clone the repository
 git clone https://github.com/nhztech/NHZPLDI
 
+# Navigate to the project directory and run the installer
 cd NHZPLDI
-bash NHZPLDI.sh 
-
-## Watch and Subscribe to my YT Channel for free lessons
+bash NHZPLDI.sh
