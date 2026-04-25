@@ -1,5 +1,5 @@
 #colors
-source "$HOME/PROGRAMS/NHZPLDI/etc/lib/Typewriter.sh"
+source "$HOME/NHZPLDI/etc/lib/Typewriter.sh"
 #Installing requirements
 
 Typewriter -cy -cn "Installing Requirements"
@@ -20,5 +20,4 @@ Typewriter -cb -cn "Installing Pulse-audio"
 sleep 0.2
 Typewriter -s -cn "apt install pulseaudio" 0.02
 sleep 0.2
-
 
