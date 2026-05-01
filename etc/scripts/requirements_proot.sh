@@ -11,7 +11,7 @@ sleep 0.5
 tw -s -cn "apt update" 0.02
 sleep 0.5
 
-tw -cn -cn "Installing Proot"
+tw -cb -cn "Installing Proot"
 sleep 0.5
 
 tw -s -cn "apt install proot" 0.02

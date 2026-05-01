@@ -1,2 +1,4 @@
-Requirements_PROOT_Installed=False
+Requirements_PROOT_Installed=True
 Requirements_PD_Installed=False
+
+Version=1.0.1

@@ -123,6 +123,7 @@ custom_rootfs_link() {
     sleep 1
     echo ""
     echo "Please put your ${Green}distro name!"${Reset}
+    echo ""
     echo "If you put ${Blue}'ubuntu'${White}, your ${Green}login script${White} will be ${Green}'bash ubuntu.sh' "${Reset}
     echo ""
     sleep 1
@@ -139,10 +140,11 @@ custom_rootfs_link() {
     # Folder Notice
     if [ -d "$folder" ]; then
         echo ""
-        Typewriter -cr -n "Existing directory found, are you sure to remove it (y/n) ?"${Green}
+        Typewriter -cr "Existing directory found, are you sure to remove it (y/n)? "${Green}
         read ans
         if [[ "$ans" =~ ^([yY])$ ]]; then
-            echo ${Green}"Deleting existing directory...."
+            echo ""
+            Typewriter -cg -cn "Deleting existing directory...."
             rm -rf ~/$folder
             rm -rf ~/$dm.sh
             sleep 1
@@ -264,12 +266,11 @@ EOM
     #Banner
     NHZPLDI_Banner_Dynamic
     sleep 1
-    echo ""
     Typewriter -cn "If you find ${Red}problem/errors${Reset} re-install and re-run the script."
     sleep 0.5
     Typewriter -cn "You can now start your distro with ${Blue}'$dm.sh'${Reset} script"
     sleep 0.5
-    Typewriter -cn "Runner Command : ${Blue}bash $dm.sh "
+    Typewriter -cn "${Green}Runner Command ${Reset}: ${Blue}bash $dm.sh "
     sleep 1
     Typewriter -cg "Running $dm....."
     echo
